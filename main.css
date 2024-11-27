@@ -1,0 +1,190 @@
+html{
+  font-family:'Oswald', sans-serif;
+}
+body{
+  background:linear-gradient(rgb(255, 153, 0), rgb(255, 187, 0), rgb(255, 163, 101));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Широкоформатные мониторы */
+@media screen and (min-width:1920px){
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: -3px;
+  }
+  
+  .sections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px 375px
+  }
+  .section1{
+    background-color: white;
+    width: 363px;
+    height: 348px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .section1 h1{
+    color:rgb(250, 194, 89);
+  }
+  .section1 p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section1 a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 212, 133);
+  }
+  .section1 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 126, 111);
+  }
+}
+
+/* Ноутбуки */
+@media screen and (min-width:1024px) and (max-width:1919px) {
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: -3px;
+  }
+  
+  .sections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px 320px
+  }
+  .section1{
+    background-color: white;
+    width: 297px;
+    height: 333px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .section1 h1{
+    color:rgb(250, 194, 89);
+  }
+  .section1 p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section1 a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 212, 133);
+  }
+  .section1 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 126, 111);
+  }
+}
+
+/* Планшеты */
+@media screen and (min-width:768px) and (max-width:1023px){
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: -3px;
+  }
+
+  .sections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px 370px
+  }
+  .section1{
+    background-color: white;
+    width: 348px;
+    height: 332px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .section1 h1{
+    color:rgb(250, 194, 89);
+  }
+  .section1 p{
+    text-align: center;
+    margin-bottom: 20px;
+    word-break: normal;
+  }
+  .section1 a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 212, 133);
+  }
+  .section1 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 126, 111);
+  }
+}
+
+/* Мобильные устройства */
+@media screen and (min-width:360px) and (max-width:767px){
+  h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: -3px;
+  }
+  
+  .sections{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:10px 100px
+  }
+  .section1{
+    background-color: white;
+    width: 340px;
+    height: 308px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .section1 h1{
+    color:rgb(250, 194, 89);
+  }
+  .section1 p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section1 a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 212, 133);
+  }
+  .section1 a:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(134, 126, 111);
+  }
+}
